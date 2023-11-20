@@ -5,7 +5,7 @@ files:
     destination: C:\inetpub\wwwroot
 hooks:
    BeforeInstall:
-     - location: CodeDeploy/appstop.bat       
+     - location: \iis-install.bat       
        runas: administrator
    ApplicationStart:
      - location: CodeDeploy/appstart.bat       
